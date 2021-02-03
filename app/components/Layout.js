@@ -1,7 +1,10 @@
 import React from "react";
 
-import Header from "./Header";
+import Header from "./Header/Header";
 import Footer from "./Footer";
+import Login from "./Login/Login";
+
+import { BrowserRouter } from 'react-router-dom';
 
 export default class Layout extends React.Component {
   constructor() {
@@ -21,6 +24,7 @@ export default class Layout extends React.Component {
                 changeTitle={this.changeTitle.bind(this)}/>
         <h1>Rello React!!!</h1>
         <p>Oh Yeah!!</p>
+        <Login/>
         <Footer/>
       </div>
     );
