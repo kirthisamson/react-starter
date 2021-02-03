@@ -23,7 +23,7 @@ export default class Layout extends React.Component {
                 title={this.state.title} 
                 changeTitle={this.changeTitle.bind(this)}/>
         <h1>Rello React!!!</h1>
-        <p>Oh Yeah!!</p>
+        <p>Oh Yeah!! A Paragraph!!</p>
         <Login/>
         <Footer/>
       </div>
